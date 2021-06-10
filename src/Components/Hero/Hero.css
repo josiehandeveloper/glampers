@@ -1,0 +1,57 @@
+.hero__container {
+  background-image: url(../../images/hero__image.jpg);
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  height: 60vh;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.btn__dates {
+  background-color: white !important;
+  font-family: lato;
+  font-weight: 500 !important;
+  text-transform: inherit !important;
+  color: #749e86 !important;
+}
+
+.hero__calendar {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__info {
+  background-color: black;
+  color: white;
+  padding-top: 25vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 280px;
+  font-family: Lato;
+}
+
+.hero__info > h1 {
+  font-weight: lighter;
+}
+
+.hero__info > h4 {
+  margin-top: 10px;
+  font-weight: lighter;
+}
+
+.hero__info > button {
+  background-color: #749e86;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.hero__info > button:hover {
+  background-color: white;
+  color: #749e86;
+}
