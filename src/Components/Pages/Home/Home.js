@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../../../Components/Hero/Hero";
+import Hero from "../../Hero/Hero";
 import Card from "../../Card/Card";
 import "./Home.css";
 
@@ -16,7 +16,7 @@ function Home() {
         />
         <Card
           src="https://images.unsplash.com/photo-1589508420947-34b40f3d28be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80"
-          title="Tiny home near Crater Lake"
+          title="Tiny Home near Crater Lake"
           description="Perfect for a weekend getaway"
           price="$60/night"
         />
@@ -26,23 +26,29 @@ function Home() {
           description="Enjoy the stars under the desert sky"
           price="$70/night"
         />
+        <Card
+          src="https://images.unsplash.com/photo-1503516353893-4bc5bd56f50d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1498&q=80"
+          title="Van Life by the Ocean"
+          description="Hear the ocean waves in an intimate setting"
+          price="$50/night"
+        />
       </div>
       <div className="cards__container">
         <Card
           src="https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-          title="Vintage Airstream in the countryside"
+          title="Vintage Airstream in the Countryside"
           description="All the amenities of being at home"
           price="$85/night"
         />
         <Card
           src="https://images.unsplash.com/photo-1582840996732-e9c89c6feb34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-          title="Teepee surrounded by Joshua Trees"
+          title="Teepee Surrounded by Joshua Trees"
           description="Unique experience"
           price="$70/night"
         />
         <Card
           src="https://images.unsplash.com/photo-1618767689160-da3fb810aad7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-          title="Treehouse in the middle of a forest"
+          title="Treehouse Amongst the Forest"
           description="One of a kind stay"
           price="$50/night"
         />

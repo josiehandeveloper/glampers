@@ -1,0 +1,56 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../../images/hero__image.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.login__container {
+  background-color: white;
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+}
+
+.login__container > h1 {
+  font-weight: 400;
+}
+
+.login__container > form > h5 {
+  font-family: lato;
+  font-weight: lighter;
+  margin-bottom: 2px;
+}
+
+.emailInput {
+  width: 96%;
+}
+
+.passwordInput {
+  width: 96%;
+}
+
+.login__btn {
+  width: 100% !important;
+  background-color: #749e86 !important;
+  color: white !important;
+  text-transform: inherit !important;
+  margin-top: 20px !important;
+  font-weight: 400 !important;
+}
+
+.registerLink {
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+}
