@@ -1,0 +1,53 @@
+.searchResult {
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.searchResult:hover {
+  opacity: 0.8;
+  transition: transform 100ms ease-in;
+}
+
+.searchResult > img {
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.searchResult__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+  font-family: lato;
+}
+
+.searchResult__infoTop {
+  width: 40vw;
+}
+
+.searchResult__infoTop > h2 {
+  font-weight: lighter;
+}
+
+.searchResult__infoBottom {
+  display: flex;
+}
+
+.searchResult__infoBottom > h2 {
+  font-weight: lighter;
+}
+
+.addToCartIcon {
+  padding-left: 20px !important;
+}
+
+.addToCartIcon:hover {
+  color: #749e86 !important;
+  background-color: transparent !important;
+}

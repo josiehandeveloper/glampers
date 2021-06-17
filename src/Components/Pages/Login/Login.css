@@ -49,8 +49,17 @@
   font-weight: 400 !important;
 }
 
-.registerLink {
-  padding: 15px;
+.login__btn:hover {
+  background-color: white !important;
+  color: #749e86 !important;
+}
+
+.register__link {
+  padding-top: 10px;
   text-decoration: none;
   color: black;
+}
+
+.register__link:hover {
+  color: #749e86;
 }

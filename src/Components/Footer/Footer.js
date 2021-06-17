@@ -3,8 +3,11 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div id="contact" className="footer-container">
-      <div className="footer-wrap">
+    <div id="contact" className="footer__container">
+      <div className="footer__wrap">
+        <p className="footer__copyright">
+          © 2021 Glampers - Not actually a business made for learning purposes
+        </p>
         <a
           className="link"
           href="mailto:jsphnhan@gmail.com"

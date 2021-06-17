@@ -1,0 +1,18 @@
+.searchPage__filters {
+  padding: 20px;
+}
+
+.searchPage__filters > p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.searchPage__filters > h1 {
+  margin-bottom: 30px;
+}
+
+.searchPage__filters > button {
+  border-radius: 20px;
+  text-transform: inherit;
+  margin: 5px;
+}

@@ -35,8 +35,15 @@
 .addCart {
   display: flex;
   justify-content: space-between;
+  font-family: lato;
+  font-weight: lighter;
 }
 
 .card__info > h4 {
   font-weight: lighter;
+}
+
+.card__infoBottom {
+  display: flex;
+  justify-content: space-between;
 }

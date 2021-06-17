@@ -1,11 +1,12 @@
-.Navbar {
-  padding-top: 1em;
-  background: transparent;
+.navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0.7em 0;
   align-items: center;
   font-size: 1.4em;
   position: sticky;
+  background-color: white;
+  width: 100%;
   top: 0;
   z-index: 100;
 }
@@ -13,31 +14,41 @@
 .navbar__icon {
   object-fit: contain;
   height: 70px;
-  justify-self: start;
-  cursor: pointer;
+  margin-left: 20px;
+}
+
+.navbar__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  max-width: fit-content;
+  padding: 10px;
+  height: 25px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+}
+
+.navbar__search > input {
+  border: none;
+  width: 250px;
+  padding: 10px;
+  outline-width: 0;
 }
 
 .nav__menu {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-gap: 10px;
-  list-style: none;
-  text-align: center;
-  width: 70vw;
-  justify-content: end;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 40px;
+  width: 5vw;
 }
 
-.nav__links > a {
-  color: black;
-  text-decoration: none;
-}
-
-.nav__links > a:hover {
-  color: #3d5948;
-}
-
-.menu__icon {
-  display: none;
+.authnav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 40px;
+  width: 5vw;
 }
 
 @media screen and (max-width: 960px) {
