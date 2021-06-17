@@ -11,7 +11,6 @@ import Checkout from "./Components/Pages/Checkout/Checkout";
 import Footer from "./Components/Footer/Footer";
 import config from "./config";
 import "./App.css";
-import TokenService from "./services/token-service";
 
 class App extends Component {
   state = {

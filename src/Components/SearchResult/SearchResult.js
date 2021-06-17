@@ -12,28 +12,30 @@ class SearchResult extends Component {
     return (
       <>
         {glampers.map((glamper) => (
-          <div className="searchResult" key={glamper.id}>
-            <img src={glamper.src} alt="" />
-            <div className="searchResult__info">
-              <div className="searchResult__infoTop">
-                <h2>{glamper.title}</h2>
-                <p>{glamper.description}</p>
-              </div>
-              <div className="searchResult__infoBottom">
-                <h2>{glamper.price}</h2>
+          <div>
+            <div className="searchResult" key={glamper.id}>
+              <img className="searchResult__img" src={glamper.src} alt="" />
+              <div className="searchResult__info">
+                <div className="searchResult__infoTop">
+                  <h2 className="searchResult__title">{glamper.title}</h2>
+                  <p>{glamper.description}</p>
+                </div>
+                <div className="searchResult__infoBottom">
+                  <h2>{glamper.price}</h2>
 
-                {this.context.cart.length === 1 ? (
-                  <IconButton className="addToCartIcon">
-                    <AddShoppingCart />
-                  </IconButton>
-                ) : (
-                  <IconButton
-                    className="addToCartIcon"
-                    onClick={() => this.context.addItem(glamper)}
-                  >
-                    <AddShoppingCart />
-                  </IconButton>
-                )}
+                  {this.context.cart.length === 1 ? (
+                    <IconButton className="addToCartIcon">
+                      <AddShoppingCart />
+                    </IconButton>
+                  ) : (
+                    <IconButton
+                      className="addToCartIcon"
+                      onClick={() => this.context.addItem(glamper)}
+                    >
+                      <AddShoppingCart />
+                    </IconButton>
+                  )}
+                </div>
               </div>
             </div>
           </div>
