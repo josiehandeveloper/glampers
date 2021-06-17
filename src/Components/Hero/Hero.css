@@ -53,3 +53,16 @@
   background-color: white !important;
   color: #749e86 !important;
 }
+
+@media only screen and (max-width: 650px) {
+  .hero__info {
+    background-color: black;
+    color: white;
+    padding-top: 5vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    width: 250px;
+    font-family: Lato;
+  }
+}
