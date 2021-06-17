@@ -69,9 +69,21 @@
     flex-direction: column;
     font-family: lato;
   }
+  .searchResult__infoTop {
+    width: 100%;
+  }
   .searchResult__img {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .searchResult > img {
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
   }
 }
