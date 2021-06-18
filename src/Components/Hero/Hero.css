@@ -6,6 +6,7 @@
   height: 50vh;
   position: relative;
   background-repeat: no-repeat;
+  padding-bottom: 20px;
 }
 
 .btn__dates {
@@ -64,5 +65,34 @@
     padding-bottom: 40px;
     width: 250px;
     font-family: Lato;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .hero__info {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    font-family: Lato;
+  }
+
+  .hero__info > h1 {
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+  .adventure__btn {
+    margin-top: -5px !important;
+    justify-self: center !important;
+    align-items: center !important;
+    background-color: #749e86 !important;
+    color: white !important;
+    text-transform: inherit !important;
+    font-weight: 400 !important;
   }
 }
